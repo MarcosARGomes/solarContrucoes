@@ -4,25 +4,25 @@ import { HomeModernIcon, UserGroupIcon, AcademicCapIcon } from "@heroicons/react
 import { motion } from "framer-motion";
 import { Benefit } from "./Benefit";
 import { ActionButton } from "@/share/ActionButton";
-import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
+import BenefitsPageGraphic from "@/assets/solar_panel.png";
 
 const benefits: Array<BenefitType> = [
     {
         icon: <HomeModernIcon className="h-6 w-6" />,
-        title: "State of the Art Facilities",
-        description: "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et."
+        title: "Economia",
+        description: "Com a produção de energia solar é possível reduzir sua conta de luz mensal."
     },
     {
         icon: <UserGroupIcon className="h-6 w-6" />,
-        title: "100's of Diverse Classes",
+        title: "Valorização",
         description:
-            "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+            "Com energia solar seu imóvel conquista uma valorização de até 6%.",
     },
     {
         icon: <AcademicCapIcon className="h-6 w-6" />,
-        title: "Expert and Pro Trainers",
+        title: "Rentabilidade",
         description:
-            "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+            "Excelente investimento com retorno garantido em poucos anos (de 2 a 5 anos).",
     },
 ]
 
@@ -46,7 +46,7 @@ export const Benefits = ({ setSelectedPage }: Props) => {
             >
                 {/* HEADER */}
                 <motion.div
-                    className="md:my-5 md:w-3/5"
+                    className="md:my-5 md:w-5/9"
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
@@ -56,11 +56,9 @@ export const Benefits = ({ setSelectedPage }: Props) => {
                         visible: { opacity: 1, x: 0 },
                     }}
                 >
-                    <HText>MORE THAN JUST GYM.</HText>
-                    <p className="my-5 text-sm">
-                        We provide world class fitness equipment, trainers and classes to
-                        get you to your ultimate fitness goals with ease. We provide true
-                        care into each and every member.
+                    <HText>Vantagens de produzir sua Energia Solar:</HText>
+                    <p className="my-5 text-base">
+                            A economia na conta de luz, a valorização do imóvel, a fácil instalação e o retorno sobre o investimento são alguns exemplos do que os painéis fotovoltaicos podem oferecer. Além disso, a energia renovável proporcionada pela tecnologia contribui para a preservação do meio ambiente.   
                     </p>
                 </motion.div>
 

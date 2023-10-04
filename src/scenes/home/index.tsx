@@ -1,14 +1,15 @@
 import { SelectedPage } from '@/share/types'
 import useMediaQuery from '@/hooks/useMediaQuery';
 import { ActionButton } from '@/share/ActionButton';
-import HomePageText from "@/assets/HomePageText.png";
-import HomePageGraphic from "@/assets/HomePageGraphic.png";
+import HomePageText2 from "@/assets/Solar_Construções.png"
+import HomePageGraphic from "@/assets/Sun energy-amico.png";
 import SponsorRedBull from "@/assets/SponsorRedBull.png";
 import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
 
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { motion } from 'framer-motion';
+import { HText } from '@/share/HText';
 
 
 type Props = {
@@ -40,7 +41,7 @@ export const Home = ({ setSelectedPage }: Props) => {
                     >
                         <div className='relative'>
                             <div className='before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext'>
-                                <img src={HomePageText} alt="home-page-text" />
+                                <img src={HomePageText2} alt="home-page-text top" />
                             </div>
                         </div>
                         <p className="mt-8 text-sm ">
@@ -78,9 +79,12 @@ export const Home = ({ setSelectedPage }: Props) => {
             </motion.div>
             {/* Sponsors */}
             {isAboveMediumScreens && (
-                <div className='h-[150px] w-full bg-primary-100 py-10'>
+                <div className='h-[150px] w-full bg-primary-100 py-5'>
                     <div className='mx-auto w-5/6'>
-                        <div className='flex w-3/5 items-center justify-between gap-8'>
+                        <div className=' items-center justify-between gap-2 ' >
+                            <HText>Financie sua energia solar em até 36X</HText>
+                        </div>
+                        <div className='flex w-3/5 items-center justify-between gap-8 mt-2'>
                             <img src={SponsorRedBull} alt="redbull-sponsor" />
                             <img src={SponsorForbes} alt="Forbes-sponsor" />
                             <img src={SponsorFortune} alt="Fortune-sponsor" />

@@ -33,7 +33,7 @@ const Navbar = ({
                         {/* LEFT SIDE */}
 
                         {isAboveMediumScreens ? (<div className={`${flexBetween} w-full`}>
-                            <div className={`${flexBetween} gap-8 text-sm`}>
+                            <div className={`${flexBetween} gap-8 text-lg`}>
                                 <Link
                                     page="Home"
                                     selectedPage={selectedPage}

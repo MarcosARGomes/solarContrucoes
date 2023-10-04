@@ -1,7 +1,7 @@
 import { ClassType, SelectedPage } from '@/share/types'
 import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
-import ContactUsPageGraphic from "@/assets/ContactUsPageGraphic.png"
+import ContactUsPageGraphic from "@/assets//Sun energy-bro.png"
 import { HText } from '@/share/HText';
 
 
