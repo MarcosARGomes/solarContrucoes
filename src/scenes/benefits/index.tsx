@@ -58,7 +58,7 @@ export const Benefits = ({ setSelectedPage }: Props) => {
                 >
                     <HText>Vantagens de produzir sua Energia Solar:</HText>
                     <p className="my-5 text-base">
-                            A economia na conta de luz, a valorização do imóvel, a fácil instalação e o retorno sobre o investimento são alguns exemplos do que os painéis fotovoltaicos podem oferecer. Além disso, a energia renovável proporcionada pela tecnologia contribui para a preservação do meio ambiente.   
+                        A economia na conta de luz, a valorização do imóvel, a fácil instalação e o retorno sobre o investimento são alguns exemplos do que os painéis fotovoltaicos podem oferecer. Além disso, a energia renovável proporcionada pela tecnologia contribui para a preservação do meio ambiente.
                     </p>
                 </motion.div>
 
@@ -143,13 +143,14 @@ export const Benefits = ({ setSelectedPage }: Props) => {
                         {/* BUTTON */}
                         <div className="relative mt-16">
                             <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
-                                <ActionButton setSelectedPage={setSelectedPage}>
+                                <ActionButton setSelectedPage={setSelectedPage} >
                                     Join Now
                                 </ActionButton>
                             </div>
                         </div>
                     </div>
                 </div>
+                {/* Colocar aqui */}
             </motion.div>
         </section>
     );

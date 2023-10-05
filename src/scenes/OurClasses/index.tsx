@@ -1,10 +1,8 @@
 import { ClassType, SelectedPage } from '@/share/types'
-import image1 from "@/assets/image1.png";
-import image2 from "@/assets/image2.png";
-import image3 from "@/assets/image3.png";
-import image4 from "@/assets/image4.png";
-import image5 from "@/assets/image5.png";
-import image6 from "@/assets/image6.png";
+import image1 from "@/assets/telhado.jpg";
+import image2 from "@/assets/engenheiro.png";
+import image3 from "@/assets/pintura.jpg";
+import image4 from "@/assets/reforma.jpg";
 
 import { motion } from 'framer-motion';
 import { HText } from '@/share/HText';
@@ -31,16 +29,6 @@ const classes: Array<ClassType> = [
         name: "Wieght Training Classses",
         description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a corrupti rem debitis?",
         image: image4,
-    },
-    {
-        name: "Wieght Training Classses",
-        description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a corrupti rem debitis?",
-        image: image5,
-    },
-    {
-        name: "Wieght Training Classses",
-        description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a corrupti rem debitis?",
-        image: image6,
     },
 ]
 

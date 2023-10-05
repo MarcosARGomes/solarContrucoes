@@ -3,9 +3,11 @@ import useMediaQuery from '@/hooks/useMediaQuery';
 import { ActionButton } from '@/share/ActionButton';
 import HomePageText2 from "@/assets/Solar_Construções.png"
 import HomePageGraphic from "@/assets/Sun energy-amico.png";
-import SponsorRedBull from "@/assets/SponsorRedBull.png";
-import SponsorForbes from "@/assets/SponsorForbes.png";
-import SponsorFortune from "@/assets/SponsorFortune.png";
+import SponsorDesenvolve from "@/assets/desenvolvemt3.png";
+import SponsorSicred from "@/assets/sicredi2.png";
+import SponsorBB from "@/assets/bb.png";
+import SponsorCaixa from "@/assets/caixa.png";
+
 
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { motion } from 'framer-motion';
@@ -85,9 +87,11 @@ export const Home = ({ setSelectedPage }: Props) => {
                             <HText>Financie sua energia solar em até 36X</HText>
                         </div>
                         <div className='flex w-3/5 items-center justify-between gap-8 mt-2'>
-                            <img src={SponsorRedBull} alt="redbull-sponsor" />
-                            <img src={SponsorForbes} alt="Forbes-sponsor" />
-                            <img src={SponsorFortune} alt="Fortune-sponsor" />
+                            <img src={SponsorDesenvolve} alt="redbull-sponsor" />
+                            <img src={SponsorSicred} alt="Forbes-sponsor" />
+                            <img src={SponsorBB} alt="Fortune-sponsor" />
+                            <img src={SponsorCaixa} alt="Fortune-sponsor" />
+
                         </div>
                     </div>
                 </div>
