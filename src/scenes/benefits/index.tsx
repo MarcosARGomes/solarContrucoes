@@ -107,8 +107,7 @@ export const Benefits = ({ setSelectedPage }: Props) => {
                                     }}
                                 >
                                     <HText>
-                                        MILLIONS OF HAPPY MEMBERS GETTING{" "}
-                                        <span className="text-primary-500">FIT</span>
+                                    Cuidamos de todas as etapas, para você não ter nenhuma dor de cabeça.{" "}
                                     </HText>
                                 </motion.div>
                             </div>
