@@ -38,9 +38,9 @@ type Props = {
 
 export const OurClasses = ({ setSelectedPage }: Props) => {
     return (
-        <section id="ourclasses" className="w-full bg-primary-100 py-20">
+        <section id="serviços" className="w-full bg-primary-100 py-20">
             <motion.div
-                onViewportEnter={() => setSelectedPage(SelectedPage.OurClasses)}
+                onViewportEnter={() => setSelectedPage(SelectedPage.Serviços)}
             >
                 <motion.div
                     className="mx-auto w-5/6"
@@ -54,12 +54,9 @@ export const OurClasses = ({ setSelectedPage }: Props) => {
                     }}
                 >
                     <div className="md:w-3/5">
-                        <HText>OUR CLASSES</HText>
+                        <HText>Serviços Prestados</HText>
                         <p className="py-5">
-                            Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                            tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                            facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                            enim mattis odio in risus nunc.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia blanditiis voluptatum unde, facilis eum sequi magnam nihil assumenda impedit ipsam, suscipit, quisquam molestiae? Maxime pariatur necessitatibus laboriosam sit repellat sint?
                         </p>
                     </div>
                 </motion.div>

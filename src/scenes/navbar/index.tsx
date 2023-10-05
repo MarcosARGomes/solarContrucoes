@@ -6,6 +6,7 @@ import Link from './Link';
 import { SelectedPage } from '@/share/types';
 import useMediaQuery from '@/hooks/useMediaQuery';
 import { ActionButton } from '@/share/ActionButton';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 type Props = {
     isTopOfpage: boolean;
@@ -21,7 +22,7 @@ const Navbar = ({
     const flexBetween = "flex items-center justify-between";
     const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
     const isAboveMediumScreens = useMediaQuery("(min-width:1060px");
-    const navbarBackground = isTopOfpage ? "": "bg-primary-100 drop-shadow";
+    const navbarBackground = isTopOfpage ? "" : "bg-primary-100 drop-shadow";
     return (
         <nav>
             <div className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full py-6`}>
@@ -40,24 +41,27 @@ const Navbar = ({
                                     setSelectedPage={setSelectedPage}
                                 />
                                 <Link
-                                    page="Benefits"
+                                    page="Beneficios"
                                     selectedPage={selectedPage}
                                     setSelectedPage={setSelectedPage}
                                 />
                                 <Link
-                                    page="Our Classes"
+                                    page="Serviços"
                                     selectedPage={selectedPage}
                                     setSelectedPage={setSelectedPage}
                                 />
                                 <Link
-                                    page="Contact Us"
+                                    page="Contato"
                                     selectedPage={selectedPage}
                                     setSelectedPage={setSelectedPage}
                                 />
                             </div>
                             <div className={`${flexBetween} gap-8`}>
-                                <p>Sign In</p>
-                                <ActionButton setSelectedPage={setSelectedPage} >Become a Member</ActionButton>
+                                <AnchorLink className='text-sm font-bold  hover:text-secondary-500'
+                                    onClick={() => setSelectedPage(SelectedPage.Contato)}
+                                    href={`#${SelectedPage.Contato}`}>
+                                    <ActionButton setSelectedPage={setSelectedPage} >Entre em contato</ActionButton>
+                                </AnchorLink>
                             </div>
                         </div>)
                             : (<button className='rounded-full bg-secondary-500 p-2'
@@ -88,17 +92,17 @@ const Navbar = ({
                             setSelectedPage={setSelectedPage}
                         />
                         <Link
-                            page="Benefits"
+                            page="Beneficios"
                             selectedPage={selectedPage}
                             setSelectedPage={setSelectedPage}
                         />
                         <Link
-                            page="Our Classes"
+                            page="Serviços"
                             selectedPage={selectedPage}
                             setSelectedPage={setSelectedPage}
                         />
                         <Link
-                            page="Contact Us"
+                            page="Contato"
                             selectedPage={selectedPage}
                             setSelectedPage={setSelectedPage}
                         />

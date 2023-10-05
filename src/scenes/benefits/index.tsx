@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { Benefit } from "./Benefit";
 import { ActionButton } from "@/share/ActionButton";
 import BenefitsPageGraphic from "@/assets/solar_panel.png";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const benefits: Array<BenefitType> = [
     {
@@ -40,9 +41,9 @@ type Props = {
 
 export const Benefits = ({ setSelectedPage }: Props) => {
     return (
-        <section id="benefits" className="mx-auto min-h-full w-5/6 py-20">
+        <section id="beneficios" className="mx-auto min-h-full w-5/6 py-20">
             <motion.div
-                onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
+                onViewportEnter={() => setSelectedPage(SelectedPage.Beneficios)}
             >
                 {/* HEADER */}
                 <motion.div
@@ -143,9 +144,13 @@ export const Benefits = ({ setSelectedPage }: Props) => {
                         {/* BUTTON */}
                         <div className="relative mt-16">
                             <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
-                                <ActionButton setSelectedPage={setSelectedPage} >
-                                    Join Now
-                                </ActionButton>
+                                <AnchorLink className='text-sm font-bold  hover:text-secondary-500'
+                                    onClick={() => setSelectedPage(SelectedPage.Contato)}
+                                    href={`#${SelectedPage.Contato}`}>
+                                    <ActionButton setSelectedPage={setSelectedPage} >
+                                        Saiba Mais
+                                    </ActionButton>
+                                </AnchorLink>
                             </div>
                         </div>
                     </div>
