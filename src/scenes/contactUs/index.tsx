@@ -39,8 +39,8 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                         visible: { opacity: 1, x: 0 },
                     }}>
                     <HText>
-                        <span className='text-primary-500'>JOIN NOW </span>
-                        TO GET IN SHAPE
+                        <span className='text-primary-500'>ENTRE EM CONTATO </span>
+                        E VENHA PARA A SOLAR
                     </HText>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus harum vel alias magni autem animi error tenetur at quasi? Saepe, libero deserunt. Numquam, necessitatibus at labore commodi fuga ut aliquam.</p>
                 </motion.div>

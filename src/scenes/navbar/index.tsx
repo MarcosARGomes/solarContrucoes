@@ -60,7 +60,7 @@ const Navbar = ({
                                 <AnchorLink className='text-sm font-bold  hover:text-secondary-500'
                                     onClick={() => setSelectedPage(SelectedPage.Contato)}
                                     href={`#${SelectedPage.Contato}`}>
-                                    <ActionButton setSelectedPage={setSelectedPage} >Entre em contato</ActionButton>
+                                    <ActionButton setSelectedPage={setSelectedPage} >Faça uma simulação</ActionButton>
                                 </AnchorLink>
                             </div>
                         </div>)
