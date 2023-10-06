@@ -107,7 +107,7 @@ export const Benefits = ({ setSelectedPage }: Props) => {
                                     }}
                                 >
                                     <HText>
-                                    Cuidamos de todas as etapas, para você não ter nenhuma dor de cabeça.{" "}
+                                        Cuidamos de todas as etapas, para você não ter nenhuma dor de cabeça.{" "}
                                     </HText>
                                 </motion.div>
                             </div>
@@ -125,18 +125,13 @@ export const Benefits = ({ setSelectedPage }: Props) => {
                             }}
                         >
                             <p className="my-5">
-                                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                                Felis orci diam odio.
+                                O primeiro procedimento que deve ser adotado para a instalação de um sistema de energia solar fotovoltaica para residências é a elaboração de um projeto específico para cada cliente. O projeto deve ser desenvolvido de acordo com o consumo de energia elétrica do cliente, para que esse consumo possa ser parcial ou totalmente suprido pelo uso de energia solar.
                             </p>
                             <p className="mb-5">
-                                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                                enim mattis odio in risus nunc.
+                                Depois de elaborado o projeto, é preciso que ele seja aprovado pela concessionária de energia elétrica local. Após a aprovação, é feita a instalação do sistema de energia solar fotovoltaica para residências, instalação essa que será vistoriada pela concessionária. Caso a vistoria seja aprovada, o medidor de energia convencional do cliente será substituído por um equipamento bidirecional, cuja função é registrar o consumo do cliente e a quantidade de energia que foi injetada na rede de distribuição elétrica, que, se for superior ao valor consumido, o excedente retornará ao cliente em forma de abatimento na fatura em um prazo máximo de 36 meses.
+                            </p>
+                            <p className="mb-5">
+                                É importante que cada sistema de energia solar fotovoltaica para residências seja projetado exclusivamente, para que o cliente obtenha máximo desempenho e o melhor custo-benefício possível. A Energybras é uma empresa especializada no desenvolvimento e na instalação de sistemas de energia solar fotovoltaica para residências, indústrias e comércios, capaz de atender a todas as necessidades do cliente.
                             </p>
                         </motion.div>
 

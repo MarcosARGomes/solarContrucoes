@@ -63,10 +63,10 @@ export const OurClasses = ({ setSelectedPage }: Props) => {
                         visible: { opacity: 1, x: 0 },
                     }}
                 >
-                    <div className="md:w-3/5">
+                    <div className="md:w-5/5">
                         <HText>Serviços Prestados</HText>
-                        <p className="py-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia blanditiis voluptatum unde, facilis eum sequi magnam nihil assumenda impedit ipsam, suscipit, quisquam molestiae? Maxime pariatur necessitatibus laboriosam sit repellat sint?
+                        <p className="py-4">
+                            Nossa equipe altamente qualificada está pronta para oferecer um atendimento personalizado e responder a todas as suas perguntas. Nosso compromisso é garantir que você tenha uma experiência positiva e sem complicações ao adotar a energia solar.
                         </p>
                     </div>
                 </motion.div>

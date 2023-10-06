@@ -42,7 +42,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                         <span className='text-primary-500'>ENTRE EM CONTATO </span>
                         E VENHA PARA A SOLAR
                     </HText>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus harum vel alias magni autem animi error tenetur at quasi? Saepe, libero deserunt. Numquam, necessitatibus at labore commodi fuga ut aliquam.</p>
+                    <p>Entre em contato conosco para uma avaliação gratuita e personalizada de suas necessidades de energia. Estamos ansiosos para colaborar com você e criar um mundo mais sustentável juntos.</p>
                 </motion.div>
 
                 {/* FORM AND IMAGE */}
