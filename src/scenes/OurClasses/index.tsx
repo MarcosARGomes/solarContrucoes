@@ -6,7 +6,7 @@ import image4 from "@/assets/reforma.jpg";
 
 import { motion } from 'framer-motion';
 import { HText } from '@/share/HText';
-//import { Class } from './Class';
+import Class from './Class';
 
 
 const classes: Array<ClassType> = [
@@ -61,19 +61,17 @@ export const OurClasses = ({ setSelectedPage }: Props) => {
                     </div>
                 </motion.div>
                 <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
-                    {/* COMENTÁRIO JSX  <ul className="w-[2800px] whitespace-nowrap">
-                        <! <div>Texte</div>
+                    <ul className="w-[2800px] whitespace-nowrap">
+                        <div>Texte</div>
                         {classes.map((item: ClassType, index) => (
-                          /* <Class
-                            key={`${item.name}-${index}`}
-                            name={item.name}
-                            description={item.description}
-                            image={item.image}>
-
-                        </Class>
-                        ))} 
-                    </ul> 
-                    */}
+                            <Class
+                                key={`${item.name}-${index}`}
+                                name={item.name}
+                                description={item.description}
+                                image={item.image}
+                            />
+                        ))}
+                    </ul>
                 </div>
             </motion.div>
         </section>
