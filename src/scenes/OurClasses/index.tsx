@@ -11,22 +11,22 @@ import Class from '../class/index';
 
 const classes: Array<ClassType> = [
     {
-        name: "Wieght Training Classses",
+        name: "Instalação de placas solares",
         description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a corrupti rem debitis?",
         image: image1,
     },
     {
-        name: "Wieght Training Classses",
+        name: "Construção Civil",
         description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a corrupti rem debitis?",
         image: image2,
     },
     {
-        name: "Wieght Training Classses",
+        name: "Pintura e Acabamento",
         description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a corrupti rem debitis?",
         image: image3,
     },
     {
-        name: "Wieght Training Classses",
+        name: "Rede Eletrica",
         description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a corrupti rem debitis?",
         image: image4,
     },
