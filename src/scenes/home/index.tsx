@@ -46,8 +46,8 @@ export const Home = ({ setSelectedPage }: Props) => {
                                 <img src={HomePageText2} alt="home-page-text top" />
                             </div>
                         </div>
-                        <p className="mt-8 text-sm ">
-                            estamos comprometidos em transformar o futuro da energia, oferecendo soluções inovadoras de energia solar para residências, empresas e instituições. Nossa missão é impulsionar uma revolução verde, promovendo a sustentabilidade e a independência energética.
+                        <p className="mt-8 text-base ">
+                            Estamos comprometidos em transformar o futuro da energia, oferecendo soluções inovadoras de energia solar para residências, empresas e instituições. <br/><br/> Nossa missão é impulsionar uma revolução verde, promovendo a sustentabilidade e a independência energética.
                         </p>
                     </motion.div>
                     {/*Actions */}
