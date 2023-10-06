@@ -61,16 +61,19 @@ export const OurClasses = ({ setSelectedPage }: Props) => {
                     </div>
                 </motion.div>
                 <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
-                    <ul className="w-[2800px] whitespace-nowrap">
+                    {/* COMENTÁRIO JSX  <ul className="w-[2800px] whitespace-nowrap">
+                        <! <div>Texte</div>
                         {classes.map((item: ClassType, index) => (
-                            <Class
-                                key={`${item.name}-${index}`}
-                                name={item.name}
-                                description={item.description}
-                                image={item.image}
-                            />
-                        ))}
-                    </ul>
+                          /* <Class
+                            key={`${item.name}-${index}`}
+                            name={item.name}
+                            description={item.description}
+                            image={item.image}>
+
+                        </Class>
+                        ))} 
+                    </ul> 
+                    */}
                 </div>
             </motion.div>
         </section>
