@@ -6,7 +6,7 @@ import image4 from "@/assets/reforma.jpg";
 
 import { motion } from 'framer-motion';
 import { HText } from '@/share/HText';
-import {Class} from './Class';
+import { Class } from './Class';
 
 
 const classes: Array<ClassType> = [
