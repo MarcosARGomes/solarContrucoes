@@ -1,4 +1,4 @@
-import Logo from "@/assets/logocompleta2.png";
+import Logo from "@/assets/Solar_Construções.png";
 
 type Props = {}
 
@@ -9,7 +9,7 @@ const Footer = (props: Props) => {
                 <div className="mt-16 basis-1/2 md:mt-0">
                     <img alt="logo" src={Logo} />
                     
-                    <p>© Evogym All Rights Reserved.</p>
+                    <p>© MarcosGomes All Rights Reserved.</p>
                 </div>
                 <div className="mt-16 basis-1/4 md:mt-0">
                     <h4 className="font-bold">Links</h4>

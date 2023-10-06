@@ -25,7 +25,7 @@ const Navbar = ({
     const navbarBackground = isTopOfpage ? "" : "bg-primary-100 drop-shadow";
     return (
         <nav>
-            <div className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full py-6`}>
+            <div className={`${navbarBackground} ${flexBetween} fixed top-0 z-20 w-full py-3`}>
                 <div className={`${flexBetween} mx-auto w-5/6`}>
                     <div className={`${flexBetween} w-full gap-6`}>
                         {/* LEFT SIDE */}
