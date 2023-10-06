@@ -47,9 +47,7 @@ export const Home = ({ setSelectedPage }: Props) => {
                             </div>
                         </div>
                         <p className="mt-8 text-sm ">
-                            Unrivaled Gym. Unparalleled Training Fitness Classes. World Class
-                            Studios to get the Body Shapes That you Dream of.. Get Your Dream
-                            Body Now.
+                            estamos comprometidos em transformar o futuro da energia, oferecendo soluções inovadoras de energia solar para residências, empresas e instituições. Nossa missão é impulsionar uma revolução verde, promovendo a sustentabilidade e a independência energética.
                         </p>
                     </motion.div>
                     {/*Actions */}
