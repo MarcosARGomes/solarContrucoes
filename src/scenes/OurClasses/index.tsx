@@ -30,6 +30,16 @@ const classes: Array<ClassType> = [
         description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a corrupti rem debitis?",
         image: image4,
     },
+    {
+        name: "Rede Eletrica",
+        description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a corrupti rem debitis?",
+        image: image4,
+    },
+    {
+        name: "Rede Eletrica",
+        description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a corrupti rem debitis?",
+        image: image4,
+    },
 ]
 
 type Props = {

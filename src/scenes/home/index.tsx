@@ -1,7 +1,7 @@
 import { SelectedPage } from '@/share/types'
 import useMediaQuery from '@/hooks/useMediaQuery';
 import { ActionButton } from '@/share/ActionButton';
-import HomePageText2 from "@/assets/SolarText2.png"
+import HomePageText2 from "@/assets/Solar_Construções.png"
 import HomePageGraphic from "@/assets/Sun energy-amico.png";
 import SponsorDesenvolve from "@/assets/desenvolvemt3.png";
 import SponsorSicred from "@/assets/sicredi2.png";
@@ -66,7 +66,7 @@ export const Home = ({ setSelectedPage }: Props) => {
                             onClick={() => setSelectedPage(SelectedPage.Contato)}
                             href={`#${SelectedPage.Contato}`}>
                             <ActionButton setSelectedPage={setSelectedPage}>
-                                Saiba Mais
+                                Faça sua simulação
                             </ActionButton>
                         </AnchorLink>
                     </motion.div>
