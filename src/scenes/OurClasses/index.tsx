@@ -1,8 +1,14 @@
 import { ClassType, SelectedPage } from '@/share/types'
-import image1 from "@/assets/telhado.jpg";
+import image1 from "@/assets/placa.jpeg";
 import image2 from "@/assets/engenheiro.png";
 import image3 from "@/assets/pintura.jpg";
 import image4 from "@/assets/reforma.jpg";
+import image5 from "@/assets/acabamento.jpeg"
+import image6 from "@/assets/farmacia1.jpeg"
+import image7 from "@/assets/fundação.jpeg"
+import image8 from "@/assets/paiver.jpeg"
+
+
 
 import { motion } from 'framer-motion';
 import { HText } from '@/share/HText';
@@ -12,33 +18,38 @@ import Class from '../class/index';
 const classes: Array<ClassType> = [
     {
         name: "Instalação de placas solares",
-        description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a corrupti rem debitis?",
+        description: "Sustentabilidade aliado ao conforto e economia.",
         image: image1,
     },
     {
+        name: "Acabamento Profissional",
+        description: "Rapidez e qualidade, construção da fundação ao acabamento",
+        image: image5,
+    },
+    {
         name: "Construção Civil",
-        description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a corrupti rem debitis?",
+        description: "Prazo e preço, tiramos seu projeto do papel",
+        image: image6,
+    },
+    {
+        name: "Fundação ",
+        description: "Fundação de toda a obra com qualidade e profissionalismo",
+        image: image7,
+    },
+    {
+        name: "Instalação de Piso Drenante",
+        description: " Beleza aliado a sustentabilidade. Ecologicamente correto.",
+        image: image8,
+    },
+    {
+        name: "Construção Civil",
+        description: "Cuidamos de todas as etapas da construção, do projeto ao acabamento",
         image: image2,
     },
     {
         name: "Pintura e Acabamento",
-        description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a corrupti rem debitis?",
+        description: " Acabamento com qualidade, um toque de beleza e qualidade solar",
         image: image3,
-    },
-    {
-        name: "Rede Eletrica",
-        description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a corrupti rem debitis?",
-        image: image4,
-    },
-    {
-        name: "Rede Eletrica",
-        description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a corrupti rem debitis?",
-        image: image4,
-    },
-    {
-        name: "Rede Eletrica",
-        description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a corrupti rem debitis?",
-        image: image4,
     },
 ]
 

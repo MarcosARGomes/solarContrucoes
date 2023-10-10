@@ -81,7 +81,7 @@ export const Home = ({ setSelectedPage }: Props) => {
                 <div className='h-[150px] w-full bg-primary-100 py-5'>
                     <div className='mx-auto w-5/6'>
                         <div className=' items-center justify-between gap-2 ' >
-                            <HText>Financie sua energia solar em até 36X</HText>
+                            <HText>Financie sua energia solar em até 120X</HText>
                         </div>
                         <div className='flex w-3/5 items-center justify-between gap-8 mt-2'>
                             <img src={SponsorDesenvolve} alt="redbull-sponsor" />
